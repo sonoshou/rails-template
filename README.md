@@ -37,4 +37,10 @@ $ rails test
 $ rails server
 ```
 
+cloud9の場合は、以下のコマンドです。
+
+```
+$ rails server -b $IP -p $PORT
+```
+
 詳しくは、[*Ruby on Rails チュートリアル*](http://railstutorial.jp/)を参考にしてください。

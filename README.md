@@ -1,6 +1,6 @@
 # Ruby on Rails チュートリアルのサンプルアプリケーション
 
-これは、次の教材で作られたサンプルアプリケーションです。   
+これは、次の教材を元にしたサンプルアプリケーションです。
 [*Ruby on Rails チュートリアル: 実例を使って Rails を学ぼう*](http://railstutorial.jp/)
 [Michael Hartl](http://www.michaelhartl.com/) 著
 
@@ -19,7 +19,8 @@ MIT ライセンスと Beerware ライセンスのもとに公開されていま
 $ bundle install --without production
 ```
 
-その後、データベースへのマイグレーションを実行します。
+その後、データベースへのマイグレーションを実行します。  
+これ以降、コマンドの最初に `bundle exec` をつける必要があります。
 
 ```
 $ rails db:migrate
